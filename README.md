@@ -1,2 +1,0 @@
-# basicWebsite
-a basic website

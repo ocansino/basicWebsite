@@ -1,0 +1,45 @@
+/*This file is all the aesthetic changes i implemented through css*/
+
+html, body {/*this changes the background of the website*/
+	background: grey; 
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { /*this sets the color of all the different h tags, kept the color bc i liked it*/
+	color: rgb(107, 107, 132);
+}
+
+body {/*this changes a bunch of different things in the body portion*/
+	font-family: Verdana, Geneva, sans-serif;/*sets font*/
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;/*auto margin*/
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: black;/*sets the background to black while there are two grey bars bordering it*/
+	line-height: 1.8;
+  color: white;
+}
+
+h1 {/*sets font and margin for h1, made the font bigger*/
+	font: 4.2em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+}
+
+h2 {/*sets font and margin for h2*/
+	font: 3.2em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+}
+
+h3 {/*changes the size of h3*/
+	font-size: 1.2em;
+}
+
+.flowRight {/*sets up flow for images, right*/
+	float: right;
+	margin-left: 10px;
+}
+.flowLeft {/*sets up flow for images, left*/
+	float: left;
+	margin-right: 10px;
+}
